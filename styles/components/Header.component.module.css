@@ -1,0 +1,37 @@
+.headerHolder {
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.socialButton {
+    font-size: 20px;
+}
+
+.socialButton .dark{
+    color: white;
+}
+
+.headerHolder svg {
+    margin-right: 10px;
+    transition: .125 ease-in-out;
+    cursor: pointer;
+}
+
+.headerHolder .darkModeButton button {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 16px;
+    padding: 10px;
+    width: 80px;
+    transition: .125 ease-in-out;
+    cursor: pointer;
+}
+
+.headerHolder .darkModeButton button:hover {
+    background-color: #121212;
+    border: none;
+    color: white;
+}
