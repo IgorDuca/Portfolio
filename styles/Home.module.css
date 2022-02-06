@@ -114,6 +114,23 @@
   display: flex;
 }
 
+.gridCardHolder {
+  padding: 10px;
+  background: #273138;
+  border: none;
+  border-radius: 20px;
+  margin-top: 30px;
+  color: white;
+  box-shadow: -1px -3px 92px 0px rgba(0,0,0,0.20);
+  -webkit-box-shadow: -1px -3px 92px 0px rgba(0,0,0,0.20);
+  -moz-box-shadow: -1px -3px 92px 0px rgba(0,0,0,0.20);
+  text-align: center;
+}
+
+.gridCardHolder img {
+  border-radius: 10px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
